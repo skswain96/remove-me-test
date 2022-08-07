@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @font-face {
+  font-family: "NEURIAL GROTESK";
+  src: url("../public/fonts/NeurialGrotesk-Regular.otf");
+  font-family: "EPILOGUE";
+  src: url("../public/fonts/Epilogue-VariableFont.ttf");
+  font-family: "EPILOGUE";
+  src: url("../public/fonts/Epilogue-ExtraBold.ttf");
+  font-family: "EPILOGUE";
+  
+  src: url("../public/fonts/Epilogue-Light.ttf");
+  font-family: "EPILOGUE";
+  src: url("../public/fonts/Epilogue-Regular.ttf");
+  src: url("../public/fonts/Epilogue-Bold.ttf");
+  font-family: "EPILOGUE";
+  src: url("../public/fonts/RobotoMono-VariableFont_wght.ttf");
+  font-family: "ROBOTO MONO";
+} */
+
+@layer base {
+  html {
+    @apply box-border;
+  }
+  *,
+  *:before,
+  *:after {
+    @apply box-border;
+  }
+
+  html,
+  body {
+    @apply p-0 m-0;
+  }
+}
+
+@layer utilities {
+  
+}
